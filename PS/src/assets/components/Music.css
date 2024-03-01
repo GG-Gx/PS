@@ -1,0 +1,30 @@
+.music-container {
+  position: relative;
+}
+
+.music-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white !important;
+}
+
+.text-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: white !important;
+
+}
+
+.text-overlay p {
+  font-size: 1.2rem;
+  color: white !important;
+
+}
